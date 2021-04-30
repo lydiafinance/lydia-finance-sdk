@@ -3,7 +3,7 @@ import { getNetwork } from '@ethersproject/networks'
 import { getDefaultProvider } from '@ethersproject/providers'
 import { TokenAmount } from './entities/fractions/tokenAmount'
 import { Pair } from './entities/pair'
-import ILydiaPair from '@lydiafinance/lydia-swap-core/artifacts/contracts/LydiaPair.sol/LydiaPair.json'
+import ILydiaPair from '@lydiafinance/lydia-finance-core/artifacts/contracts/LydiaPair.sol/LydiaPair.json'
 import invariant from 'tiny-invariant'
 import ERC20 from './abis/ERC20.json'
 import { ChainId } from './constants'
@@ -43,8 +43,8 @@ export abstract class Fetcher {
               ...TOKEN_DECIMALS_CACHE,
               [chainId]: {
                 ...TOKEN_DECIMALS_CACHE?.[chainId],
-                [address]: decimals,
-              },
+                [address]: decimals
+              }
             }
             return decimals
           })

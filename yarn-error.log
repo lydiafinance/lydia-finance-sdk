@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@lydiafinance/lydia-swap-core/-/lydia-swap-core-0.1.2.tgz: Request failed "404 Not Found"
+  Error: https://registry.yarnpkg.com/@lydiafinance/lydia-finance-core/-/lydia-finance-core-0.1.2.tgz: Request failed "404 Not Found"
       at ResponseError.ExtendableBuiltin (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:696:66)
       at new ResponseError (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:802:124)
       at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:67058:16)
@@ -48,7 +48,7 @@ npm manifest:
       "prepublishOnly": "tsdx build"
     },
     "dependencies": {
-      "@lydiafinance/lydia-swap-core": "^0.1.2",
+      "@lydiafinance/lydia-finance-core": "^0.1.2",
       "big.js": "^5.2.2",
       "decimal.js-light": "^2.5.0",
       "jsbi": "^3.1.1",
@@ -1357,9 +1357,9 @@ Lockfile:
       "@types/istanbul-reports" "^1.1.1"
       "@types/yargs" "^13.0.0"
   
-  "@lydiafinance/lydia-swap-core@^0.1.2":
+  "@lydiafinance/lydia-finance-core@^0.1.2":
     version "0.1.2"
-    resolved "https://registry.yarnpkg.com/@lydiafinance/lydia-swap-core/-/lydia-swap-core-0.1.2.tgz#197acec3360aea4dda6d28e52e8c8b760d14ec70"
+    resolved "https://registry.yarnpkg.com/@lydiafinance/lydia-finance-core/-/lydia-finance-core-0.1.2.tgz#197acec3360aea4dda6d28e52e8c8b760d14ec70"
     integrity sha512-QQcUYD4Urj4ETk3WZaLnTmz6T8Zj7Xdnz8B4G5BEmVKrzKdz2FN/Ss0QhuymkWpDyAE7K0dvW3qMAuaNEZF0Yg==
   
   "@rollup/plugin-commonjs@^11.0.0":
